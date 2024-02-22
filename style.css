@@ -1,18 +1,27 @@
+
 /* Estilo geral da pagina */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
-    background: #12372A;
+    /*Aqui estou aplicando uma imagem de fundo para a pag nao ficar sem vida */
+    background-image: url("assets/images/barber.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: #ffffff;
 }
 
 .interface {
-    max-width: 1280px;
+    max-width: auto;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Estilo do header*/
@@ -24,4 +33,147 @@ header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+/* MAIN */
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sobre-mim-conteudo {
+    font-size: 28px;
+    padding: 3%;
+    border-radius: 30px;
+    justify-content: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.75);
+
+}
+
+.sobre-mim-titulo {
+    padding-bottom: 20px;   
+    color: #F4F27E;
+}
+
+.sobre-mim-txt {
+    padding: 0.5%;
+    font-weight: 600;
+}
+
+
+.modulos {
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.modulo-1 {
+    padding: 48px;
+    font-size: 18px;
+    margin: auto;
+    width: 40%;   
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;    
+}
+
+.modulo-2 {
+    padding: 55.8px;
+    font-size: 18px;
+    margin: auto;
+    width: 40%;   
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;  
+}
+
+.modulo-3 {
+    padding: 73px;
+    font-size: 18px;
+    margin: auto;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;     
+}
+
+.modulo-titulo {
+    padding-bottom: 5px;
+    color: #F4F27E; 
+}
+
+.modulo-subtitulo {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.modulo-txt {
+    padding: 0.8%;
+    padding-left: 8%;
+    font-weight: 500;
+}
+
+.bonus {
+    padding-bottom: 5%;
+}
+
+.modulo-bonus {
+    color: #F4F27E;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;   
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;  
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #000;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-txt {
+    color: #FFF2E7;
+    font-size: 12px;
 }
