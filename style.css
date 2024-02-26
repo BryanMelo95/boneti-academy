@@ -10,7 +10,7 @@
 body {
     /*Aqui estou aplicando uma imagem de fundo para a pag nao ficar sem vida */
     background-image: url("assets/images/barber.jpg");
-    background-repeat: no-repeat;
+    background-repeat: initial;
     background-size: 100%;
     color: #ffffff;
 }
@@ -56,6 +56,30 @@ main {
     flex-direction: column;
 }
 
+.curso {
+    background: rgba(0, 0, 0, 0.95);
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+.curso-conteudo {
+    margin: auto;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.curso-conteudo-title {
+    padding-bottom: 20px;
+    color: #F4F27E;    
+}
+
+.curso-conteudo-txt {
+    padding-bottom: 30px;
+}
+
 .sobre-mim {
     display: flex;
     justify-content: center;
@@ -65,7 +89,10 @@ main {
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     background: rgba(0, 0, 0, 0.90);
 }
 
