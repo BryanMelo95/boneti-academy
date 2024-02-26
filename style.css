@@ -20,9 +20,6 @@ body {
     margin: 0 auto;
 }
 
-.flex {
-    display: flex;
-}
 
 /* Estilo do header*/
 header {
@@ -43,27 +40,38 @@ header .btn-contato button {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
 
+.logo-academy {
+    width: 20%;
+    padding-left: 2%;
 }
 
 /* MAIN */
 
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 .sobre-mim {
     display: flex;
     justify-content: center;
-    padding-top: 1%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.sobre-mim-conteudo {
-    font-size: 28px;
+    flex-direction: row;
+    align-items: center;
     padding: 3%;
     border-radius: 30px;
     justify-content: center;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    margin: 5%;
+    background: rgba(0, 0, 0, 0.90);
+}
 
+
+.sobre-mim-conteudo {
+    font-size: 30px;
 }
 
 .sobre-mim-titulo {
@@ -73,43 +81,48 @@ header .btn-contato button {
 
 .sobre-mim-txt {
     padding: 0.5%;
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.foto-perfil {
+    padding: 1%;
+}
+
+.foto-eric-boneti{
+    width: 400px;
+    border-radius: 30px;
 }
 
 
 .modulos {
-    display: flex;
-    padding: 80px;
-    flex-direction: row;
-    justify-content: center;
+    display: flex;    
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    padding-bottom: 5%;
     gap: 30px;
+
 }
 
 .modulo-1 {
-    padding: 48px;
-    font-size: 18px;
-    margin: auto;
-    width: 40%;   
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 30px;    
+    padding: 3%;
+    font-size: 20px; 
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 30px; 
 }
 
 .modulo-2 {
-    padding: 55.8px;
-    font-size: 18px;
-    margin: auto;
-    width: 40%;   
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 30px;  
+    padding: 3%;
+    font-size: 20px; 
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 30px;
 }
 
 .modulo-3 {
-    padding: 73px;
-    font-size: 18px;
-    margin: auto;
-    width: 40%;
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 30px;     
+    padding: 3%;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 30px;   
 }
 
 .modulo-titulo {
@@ -123,13 +136,14 @@ header .btn-contato button {
 }
 
 .modulo-txt {
-    padding: 0.8%;
+    padding: 2%;
     padding-left: 8%;
     font-weight: 500;
 }
 
 .bonus {
-    padding-bottom: 5%;
+    margin: auto;
+    padding-bottom: 2%;
 }
 
 .modulo-bonus {
@@ -137,12 +151,12 @@ header .btn-contato button {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    width: 70%;   
-    background: rgba(0, 0, 0, 0.75);
+    margin: auto; 
+    background: rgba(0, 0, 0, 0.85);
     border-radius: 30px;  
 }
 
@@ -151,7 +165,7 @@ header .btn-contato button {
 .footer {
     display: flex;
     padding: 30px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
