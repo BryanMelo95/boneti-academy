@@ -1,4 +1,3 @@
-
 /* Estilo geral da pagina */
 * {
     margin: 0;
@@ -25,7 +24,7 @@ header {
     padding: 10px 2%;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +43,7 @@ header .btn-contato button {
 
 header .btn-contato button:hover {
     box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.05) ;
+    transform: scale(1.05);
 }
 
 .logo-academy {
@@ -55,6 +54,7 @@ header .btn-contato button:hover {
 /* MAIN */
 
 main {
+    margin: auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -101,8 +101,8 @@ main {
     font-size: 40px;
     padding-bottom: 20px;
     color: #fffffff;
-    font-weight: 800;   
-    text-align: center; 
+    font-weight: 800;
+    text-align: center;
 }
 
 .conteudo-enfase {
@@ -116,7 +116,7 @@ main {
     padding-left: 10%;
     font-size: 25px;
     padding-bottom: 10px;
-    font-weight: 500;  
+    font-weight: 500;
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ main {
     padding-left: 10%;
     font-size: 25px;
     padding-bottom: 10px;
-    font-weight: 500;  
+    font-weight: 500;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ main {
     padding-left: 10%;
     font-size: 25px;
     padding-bottom: 30px;
-    font-weight: 500;  
+    font-weight: 500;
     text-align: center;
 }
 
@@ -158,7 +158,7 @@ main {
 
 .btn-contato-propaganda button:hover {
     box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.05) ;
+    transform: scale(1.05);
 }
 
 .main-mid {
@@ -166,8 +166,6 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     align-items: center;
 }
 
@@ -193,7 +191,7 @@ main {
 }
 
 .sobre-mim-titulo {
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
     color: #F4F27E;
 }
 
@@ -206,14 +204,14 @@ main {
     padding: 1%;
 }
 
-.foto-eric-boneti{
+.foto-eric-boneti {
     width: 400px;
     border-radius: 30px;
 }
 
 
 .modulos {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: auto;
@@ -224,14 +222,14 @@ main {
 
 .modulo-1 {
     padding: 3%;
-    font-size: 20px; 
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.95);
-    border-radius: 30px; 
+    border-radius: 30px;
 }
 
 .modulo-2 {
     padding: 3%;
-    font-size: 20px; 
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.95);
     border-radius: 30px;
 }
@@ -240,12 +238,12 @@ main {
     padding: 3%;
     font-size: 20px;
     background: rgba(0, 0, 0, 0.95);
-    border-radius: 30px;   
+    border-radius: 30px;
 }
 
 .modulo-titulo {
     padding-bottom: 5px;
-    color: #F4F27E; 
+    color: #F4F27E;
 }
 
 .modulo-subtitulo {
@@ -305,7 +303,7 @@ main {
     padding-top: 30px;
     padding-right: 50px;
     padding-left: 50px;
-    font-weight: 600;  
+    font-weight: 600;
     text-align: center;
 }
 
@@ -319,8 +317,9 @@ main {
 
 /* FOOTER */
 .footer {
+    margin: auto;
     padding: 40px;
-    background: #222121;
+    background-color: #222121;
 }
 
 .info {
@@ -368,6 +367,321 @@ main {
     width: 80px;
 }
 
+@media screen and (max-width: 1600px) {
+
+
+    header .btn-contato button {
+        padding: 10px 30px;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #00ff08;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    header .btn-contato button:hover {
+        box-shadow: 0px 0px 8px #00ff08;
+        transform: scale(1.05);
+    }
+
+    .logo-academy {
+        width: 20%;
+        padding-left: 2%;
+    }
+
+    .conteudo-titulo {
+        font-size: 20px;
+        text-align: center;
+        color: #F4F27E;
+    }
+
+    .conteudo-intro-1 {
+        font-size: 16px;
+        font-weight: 800;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .conteudo-intro-2 {
+        font-size: 18px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .curso-conteudo-chamada {
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #fffffff;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .curso-conteudo-txt-1 {
+        padding-top: 2%;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .curso-conteudo-txt-2 {
+        padding-top: 1%;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .curso-conteudo-txt-3 {
+        padding-top: 1%;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+        padding-bottom: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .btn-contato-propaganda {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .btn-contato-propaganda button {
+        padding: 10px 45px;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #00ff08;
+        border: 0;
+        border-radius: 30px;
+        transition: .2s;
+    }
+
+    .btn-contato-propaganda button:hover {
+        box-shadow: 0px 0px 8px #00ff08;
+        transform: scale(1.05);
+    }
+
+    /* SOBRE MIM */
+
+    .main-mid {
+        display: flex;
+        background-image: url("assets/images/barber.jpg");
+        background-size: 300%;
+        background-repeat: ;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sobre-mim {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 30px;
+    }
+
+
+    .sobre-mim-conteudo {
+        font-size: 18px;
+    }
+
+    .sobre-mim-titulo {
+        padding-bottom: 20px;
+        color: #F4F27E;
+    }
+
+    .sobre-mim-txt {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .foto-perfil {
+        padding-top: 15px;
+    }
+
+    .foto-eric-boneti {
+        width: 200px;
+        border-radius: 30px;
+    }
+
+    /* MODULOS */
+    .modulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .modulo-1 {
+        padding: 3%;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 30px;
+    }
+
+    .modulo-2 {
+        padding: 3%;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 30px;
+    }
+
+    .modulo-3 {
+        padding: 3%;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 30px;
+    }
+
+    .modulo-titulo {
+        text-align: center;
+        padding-bottom: 5px;
+        color: #F4F27E;
+    }
+
+    .modulo-subtitulo {
+        text-align: center;
+        color: #F4F27E;
+        ;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .modulo-txt {
+        text-align: center;
+        padding: 2%;
+        font-weight: 400;
+    }
+
+    /* MAIN - BONUS FINAL */
+    .curso {
+        margin: auto;
+        background-size: auto;
+        padding-bottom: 20px;
+    }
+
+    .curso-bonus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bonus-txt-title {
+        padding-top: 30px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 1%;
+    }
+
+    .bonus-txt {
+        padding-top: 30px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .bonus-alta {
+        font-weight: 800;
+        color: #F4F27E;
+    }
+
+    .bonus-destaque {
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .bonus-txt-final-1 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bonus-txt-final-2 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    /* FOOTER */
+.footer {
+    margin: auto;
+    padding: 20px;
+    background-color: #222121;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-titulo {
+    font-size: 20px;
+    text-align: center;
+    color: #F4F27E;
+    font-weight: 800;
+}
+
+.contato-txt {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.siga {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.logo-boneti {
+    width: 150px;
+}
+
+
+.facebook {
+    width: 33px;
+}
+
+.instagram {
+    width: 40px;
+}
+
+.tecisa {
+    width: 50px;
+}
 
 
 
+}
