@@ -367,8 +367,165 @@ main {
     width: 80px;
 }
 
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+
+    /*START - MODULOS CURSO - VERSION TABLET*/
+
+    .modulos {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        padding-bottom: 5%;
+        gap: 20px;
+
+    }
+
+    .modulo-1 {
+        padding: 5px;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 20px;
+    }
+
+    .modulo-2 {
+        padding: 10px;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 20px;
+    }
+
+    .modulo-3 {
+        padding: 10px;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.95);
+        border-radius: 20px;
+    }
+
+    .modulo-titulo {
+        font-size: 30px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #F4F27E;
+    }
+
+    .modulo-subtitulo {
+        text-align: center;
+        color: #F4F27E;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .modulo-txt {
+        text-align: center;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    /*END - MODULOS CURSO - VERSION TABLET*/
+
+    /* BONUS - VERSION TABLET */
+    .bonus-txt-title {
+        padding-top: 40px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .bonus-txt {
+        padding-top: 30px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 50px;
+    }
+
+    .bonus-alta {
+        font-weight: 800;
+        color: #F4F27E;
+    }
+
+    .bonus-destaque {
+        font-weight: 500;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .bonus-txt-final-1 {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bonus-txt-final-2 {
+        font-size: 25px;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+
+    /* FOOTER - VERSION TABLET */
+    .footer {
+        margin: auto;
+        padding: 40px;
+        background-color: #222121;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contato-titulo {
+        font-size: 26px;
+        color: #F4F27E;
+        font-weight: 800;
+    }
+
+    .contato-txt {
+        font-size: 14px;
+        padding-top: 1%;
+        font-weight: 600;
+    }
+
+    .siga {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .logo-boneti {
+        width: 200px;
+    }
+
+
+    .facebook {
+        width: 43px;
+    }
+
+    .instagram {
+        width: 50px;
+    }
+
+    .tecisa {
+        width: 80px;
+    }
+}
+
 /*START - VERSION MOBILE*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
 
 
     header .btn-contato button {
@@ -473,20 +630,11 @@ main {
     }
 
     /* SOBRE MIM */
-    main {
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: #000;
-    }
 
     .main-mid {
         display: flex;
         background-image: url("assets/images/barber.jpg");
         background-size: 300%;
-        background-repeat: repeat;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -538,7 +686,6 @@ main {
     }
 
     .modulo-1 {
-        justify-content: center;
         padding: 3%;
         font-size: 15px;
         background: rgba(0, 0, 0, 0.95);
@@ -690,201 +837,5 @@ main {
 
     .tecisa {
         width: 50px;
-    }
-}
-
-/*FIM - VERSION MOBILE*/
-
-
-
-
-@media screen and (max-width: 1500px) {
-
-    /*SOBRE-MIM - VERSION TABLET*/
-
-    .sobre-mim {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        padding: 3%;
-        border-radius: 30px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-        background: rgba(0, 0, 0, 0.90);
-    }
-
-
-    .sobre-mim-conteudo {
-        font-size: 30px;
-    }
-
-    .sobre-mim-titulo {
-        padding-bottom: 20px;
-        color: #F4F27E;
-    }
-
-    .sobre-mim-txt {
-        padding-top: 10px;
-        font-weight: 500;
-    }
-
-    /*END-SOBRE-MIM*/
-
-    /*START - MODULOS CURSO - VERSION TABLET*/
-
-    .modulos {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin: auto;
-        padding-bottom: 5%;
-        gap: 20px;
-
-    }
-
-    .modulo-1 {
-        padding: 5px;
-        font-size: 15px;
-        background: rgba(0, 0, 0, 0.95);
-        border-radius: 20px;
-    }
-
-    .modulo-2 {
-        padding: 10px;
-        font-size: 15px;
-        background: rgba(0, 0, 0, 0.95);
-        border-radius: 20px;
-    }
-
-    .modulo-3 {
-        padding: 10px;
-        font-size: 15px;
-        background: rgba(0, 0, 0, 0.95);
-        border-radius: 20px;
-    }
-
-    .modulo-titulo {
-        font-size: 30px;
-        padding-bottom: 5px;
-        text-align: center;
-        color: #F4F27E;
-    }
-
-    .modulo-subtitulo {
-        text-align: center;
-        color: #F4F27E;
-        padding-bottom: 10px;
-        padding-top: 20px;
-    }
-
-    .modulo-txt {
-        text-align: center;
-        padding: 10px;
-        font-weight: 500;
-    }
-
-    /*END - MODULOS CURSO - VERSION TABLET*/
-
-    /* BONUS - VERSION TABLET */
-    .bonus-txt-title {
-        padding-top: 40px;
-        font-size: 30px;
-        text-align: center;
-        font-weight: 700;
-        padding-bottom: 5px;
-    }
-
-    .bonus-txt {
-        padding-top: 30px;
-        font-size: 25px;
-        text-align: center;
-        font-weight: 600;
-        padding-bottom: 50px;
-    }
-
-    .bonus-alta {
-        font-weight: 800;
-        color: #F4F27E;
-    }
-
-    .bonus-destaque {
-        font-weight: 500;
-        font-size: 20px;
-        padding-bottom: 40px;
-    }
-
-    .bonus-txt-final-1 {
-        font-size: 25px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        font-weight: 600;
-        text-align: center;
-    }
-
-    .bonus-txt-final-2 {
-        font-size: 25px;
-        font-weight: 600;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-
-
-    /* FOOTER - VERSION TABLET */
-    .footer {
-        margin: auto;
-        padding: 40px;
-        background-color: #222121;
-    }
-
-    .info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 100px;
-    }
-
-    .contato-titulo {
-        font-size: 26px;
-        color: #F4F27E;
-        font-weight: 800;
-    }
-
-    .contato-txt {
-        font-size: 14px;
-        padding-top: 1%;
-        font-weight: 600;
-    }
-
-    .siga {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 50px;
-    }
-
-    .logo-boneti {
-        width: 200px;
-    }
-
-
-    .facebook {
-        width: 43px;
-    }
-
-    .instagram {
-        width: 50px;
-    }
-
-    .tecisa {
-        width: 80px;
     }
 }
