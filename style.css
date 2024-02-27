@@ -71,20 +71,28 @@ main {
 }
 
 .conteudo-titulo {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: #F4F27E;
 }
 
-.conteudo-intro {
-    font-size: 48px;
+.conteudo-intro-1 {
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
     padding-bottom: 50px;
 }
 
+.conteudo-intro-2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 .curso-conteudo-chamada {
-    font-size: 52px;
+    font-size: 50px;
     padding-bottom: 20px;
     color: #fffffff;
     font-weight: 800;   
@@ -247,11 +255,16 @@ main {
 }
 
 .bonus-txt {
-    padding-top: 10px;
+    padding-top: 30px;
     font-size: 30px;
     text-align: center;
     font-weight: 600;
     padding-bottom: 50px;
+}
+
+.bonus-alta {
+    font-weight: 800;
+    color: #F4F27E;
 }
 
 .bonus-destaque {
@@ -262,7 +275,7 @@ main {
 
 .bonus-txt-final-1 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 50px;
     padding-left: 50px;
     font-weight: 600;  
@@ -279,7 +292,7 @@ main {
 /* FOOTER */
 .footer {
     display: flex;
-    padding: 50px;
+    padding: 100px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
