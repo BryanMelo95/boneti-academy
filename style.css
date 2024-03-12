@@ -86,7 +86,7 @@ main {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .conteudo-intro-2 {
@@ -100,7 +100,8 @@ main {
 .curso-conteudo-chamada {
     font-size: 40px;
     padding-bottom: 20px;
-    color: #fffffff;
+    padding-top: 20px;
+    color: #ffffff;
     font-weight: 800;
     text-align: center;
 }
