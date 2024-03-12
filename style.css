@@ -364,8 +364,23 @@ main {
     width: 50px;
 }
 
+.dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .tecisa {
-    width: 80px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.dev-por {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
 
 
@@ -562,7 +577,7 @@ main {
     }
 
     .conteudo-intro-1 {
-        font-size: 16px;
+        font-size: 16px; 
         font-weight: 800;
         text-align: center;
         padding-bottom: 20px;
